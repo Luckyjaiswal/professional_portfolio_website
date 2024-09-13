@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
@@ -20,21 +23,23 @@
       <a class="navbar-brand" href="#">
         <img src="images/logo.png" alt="logo image">
       </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">contact</a>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Industry Trends</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
-          +1 728365413
+          
+          <a style="text-decoration: none;" href="tel:+9752976857">+91 9752976857</a>
           <span>
             <i class="fas fa-phone-alt"></i>
           </span>
@@ -50,19 +55,31 @@
 <section id="home" class="intro-section">
   <div class="container">
     <div class="row align-items-center text-white">
-      <!-- START THE CONTENT FOR THE INTRO  -->
-      <div class="col-md-6 intros text-start">
+
+      <!-- START THE CONTENT FOR THE INTRO   -->
+       <div class="col-md-6 intros text-start">
+        
         <h1 class="display-2">
-          <span class="display-2--intro">Hey!, I'm Patrick</span>
-          <span class="display-2--description lh-base">
-            this is a multi-purpose responsive layout created with bootstrap v5. 
-            (here your can place your description text)
-          </span>
+          <span class="display-2--intro">Hey!, I'm Lucky Jaiswal</span>
+          <div class=" ">
+            
+            
+            <h3>And I'm a <span class="text"> </span></h3>
+          </div>
+         
+           
+       
         </h1>
-        <button type="button" class="rounded-pill btn-rounded">Get in Touch
+        <a style="text-decoration: none;" href="#contact"><button type="button" class="rounded-pill btn-rounded">Get in Touch
           <span><i class="fas fa-arrow-right"></i></span>
-        </button>
+        </button></a>
       </div>
+       
+         
+     
+       
+        
+     
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
@@ -81,53 +98,62 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
+<section id="about" class="about"> 
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">About Me</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  <!-- START THE DESCRIPTION CONTENT  -->
+     
+       
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE SERVICES  -->
+  <div class="container">
+    <!-- START THE MARKETING CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+           <h3 class="display-3--title mt-1">Description</h3>
+ 
+           <p>I am a Software Developer With Expertise in HTML,CSS,JS,Python,React,Django(Backend). curently I am a Python Developer  </p>
+          <p>I am passionate programmer and a learner, born and brought up in India.currently, I am working in Indivibe infotech Pvt Ltd as python developer and my role is to manage or implements backend parts of project according to client need.</p>
+             <h3 class="display-3--title mt-1">Education</h3>
+             <ul>
+              <li>Master of Technology(M-Tech)(B-Tech) with CS stream.(RGPV Univercity,Bhopal ,Madhya-Pradesh).</li>
+              <li>Batchlors of Technology(B-Tech) with CS stream.(RGPV Univercity,Bhopal ,Madhya-Pradesh).</li>
+             </ul>
+
+           <a style="text-decoration: none;" href="https://brainstation.io/career-guides/what-is-web-development">
+          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- START THE WEB DEVELOPMENT CONTENT  -->
+     
+      </div>
+    </div>
+    
+       
+    </div>
+  </div>
+</section>
+
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                              START SECTION 3 - THE CAMPANIES SECTION  
 ////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-  <section id="campanies" class="campanies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by campanies like</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <!-- START THE CAMPANIES CONTENT  -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 4 - THE SERVICES  
@@ -135,7 +161,7 @@
 <section id="services" class="services">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold">Our Services</h1>
+      <h1 class="display-3 fw-bold">Our Skills & Services</h1>
       <div class="heading-line mb-1"></div>
     </div>
   <!-- START THE DESCRIPTION CONTENT  -->
@@ -150,9 +176,7 @@
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
           <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur architecto magni, 
-            dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. 
-            Tempore ducimus molestiae in dolore enim.
+            We provides all types of  Web Sloution. Our frontend Technologies are- HTML-5, CSS-3, Javascript, React, Tailwind CSS-3 and Our Backend Technologies are - Python, Django, Mysql, Postgres_SQl
           </p>
         </div>
       </div>
@@ -166,15 +190,75 @@
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fas fa-paper-plane"></div>
-          <h3 class="display-3--title mt-1">Marketing</h3>
-          <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+          <h3 class="display-3--title mt-1">Technologies we used</h3>
+          <p class="lh-lg"> 
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/html.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+                     <span>HTML-5</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/css.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+                    <span>CSS</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/jss.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+                    <span>Javascript</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/react.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
+                    <span>React Js</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/python.jpeg" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
+                    <span>Python</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/django.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+                    <span>Django</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/mysql.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+                    <span>MySql</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/pstgress.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+                    <span>Postgres</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="campanies__logo-box shadow-sm">
+                    <img src="techimages/git.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+                    <span>vc-git</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+ 
           </p>
+          <a style="text-decoration: none;" href="https://brainstation.io/career-guides/what-is-web-development">
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
+        </a>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -195,13 +279,13 @@
           <div class="icon d-block fas fa-code"></div>
           <h3 class="display-3--title mt-1">web development</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Web development refers to the process of creating, building, and maintaining websites or web applications that are accessible via the internet. It involves a combination of programming, design, and technical skills to bring websites to life and ensure they function properly across various devices and browsers.
           </p>
+          <a style="text-decoration: none;" href="https://brainstation.io/career-guides/what-is-web-development">
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
+          </a>
         </div>
       </div>
     </div>
@@ -210,15 +294,16 @@
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fas fa-cloud-upload-alt"></div>
-          <h3 class="display-3--title mt-1">cloud hosting</h3>
+          <h3 class="display-3--title mt-1">Web hosting</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Web hosting is a service that allows individuals and organizations to make their websites accessible on the internet. When you create a website, its files—such as HTML, images, and other content—need to be stored on a server so that people can access it online. 
+            We have providing all Types of Web hosting With Search Engine Optimization(SEO).
           </p>
+          <a style="text-decoration: none;" href="https://www.ibm.com/topics/web-hosting">
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
+        </a>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -230,156 +315,14 @@
   </div>
 </section>
 
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 5 - THE TESTIMONIALS  
-/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="testimonials" class="testimonials">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-  <div class="container">
-    <div class="row text-center text-white">
-      <h1 class="display-3 fw-bold">Testimonials</h1>
-      <hr style="width: 100px; height: 3px; " class="mx-auto">
-      <p class="lead pt-1">what our clients are saying</p>
-    </div>
 
-    <!-- START THE CAROUSEL CONTENT  -->
-    <div class="row align-items-center">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- CAROUSEL ITEM 1 -->
-          <div class="carousel-item active">
-            <!-- testimonials card  -->
-            <div class="testimonials__card">
-              <p class="lh-lg">
-                <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
-                <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </p>
-            </div>
-            <!-- client picture  -->
-            <div class="testimonials__picture">
-              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
-            </div>
-            <!-- client name & role  -->
-            <div class="testimonials__name">
-              <h3>Patrick Muriungi</h3>
-              <p class="fw-light">CEO & founder</p>
-            </div>
-          </div>     
-          <!-- CAROUSEL ITEM 2 -->
-          <div class="carousel-item">
-            <!-- testimonials card  -->
-            <div class="testimonials__card">
-              <p class="lh-lg">
-                <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
-                <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </p>
-            </div>
-            <!-- client picture  -->
-            <div class="testimonials__picture">
-              <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
-            </div>
-            <!-- client name & role  -->
-            <div class="testimonials__name">
-              <h3>Joy Marete</h3>
-              <p class="fw-light">Finance Manager</p>
-            </div>
-          </div>     
-          <!-- CAROUSEL ITEM 3 -->
-          <div class="carousel-item">
-            <!-- testimonials card  -->
-            <div class="testimonials__card">
-              <p class="lh-lg">
-                <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
-                <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </p>
-            </div>
-            <!-- client picture  -->
-            <div class="testimonials__picture">
-              <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
-            </div>
-            <!-- client name & role  -->
-            <div class="testimonials__name">
-              <h3>ClaireBelle Zawadi</h3>
-              <p class="fw-light">Global brand manager</p>
-            </div>
-          </div>     
-          <!-- CAROUSEL ITEM 4 -->
-          <div class="carousel-item">
-            <!-- testimonials card  -->
-            <div class="testimonials__card">
-              <p class="lh-lg">
-                <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
-                <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </p>
-            </div>
-            <!-- client picture  -->
-            <div class="testimonials__picture">
-              <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
-            </div>
-            <!-- client name & role  -->
-            <div class="testimonials__name">
-              <h3>Uhuru Kenyatta</h3>
-              <p class="fw-light">C.E.O & Founder</p>
-            </div>
-          </div>     
-        </div>
-        <div class="text-center">
-          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        </button>
-        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-</section>
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                       START SECTION 6 - THE FAQ 
-//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
 <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+      <h1 class="display-3 fw-bold text-">Industry Trends</h1>
       <div class="heading-line"></div>
-      <p class="lead">frequently asked questions, get knowledge befere hand</p>
+      <p class="lead">The current trend in software development</p>
     </div>
     <!-- ACCORDION CONTENT  -->
     <div class="row mt-5">
@@ -389,12 +332,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What are the main features?
+                Cloud Computing.
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong> Cloud Computing</strong>   is a key technology in web development that provides the infrastructure and resources needed to run web applications. It allows developers to focus on application development and maintenance, rather than the underlying infrastructure
               </div>
             </div>
           </div>
@@ -402,12 +345,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                do i have to pay again after trial
+                Microservices architecture 
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong> Microservices architecture </strong>is a software development approach that breaks down an application into smaller, independent services that communicate with each other through APIs. This approach can make web applications easier to develop, scale, and adapt to changing needs.
               </div>
             </div>
           </div>
@@ -415,12 +358,12 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            How can I get started after trial?
+                DevOps Practices
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong> DevOps  </strong>emphasises automation and continuous testing, which significantly improves the quality and reliability of web applications. Automated tests catch bugs and issues early in the development process, preventing them from reaching production.DevOps is a set of practices, tools, and philosophies that help organizations deliver applications and services more quickly than traditional software development methods.
               </div>
             </div>
           </div>
@@ -428,12 +371,11 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Can I be refunded if am not satisfied?
-              </button>
+                Artificial intelligence (AI)              </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>  Artificial intelligence (AI) </strong> is already fully integrated into the web development industry, and AI is increasingly performing more complex tasks. But its importance in web development isn’t always noticed or talked about. And if you’re looking to work in web development, then you should be familiar with how AI is changing the game. 
               </div>
             </div>
           </div>
@@ -450,10 +392,10 @@
 <section id="portfolio" class="portfolio">
   <div class="container">
     <div class="row text-center mt-5">
-      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+      <h1 class="display-3 fw-bold text-capitalize">Projetcs and Works</h1>
       <div class="heading-line"></div>
       <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+        All the projects maked from scrach
       </p>
     </div>
     <!-- FILTER BUTTONS  -->
@@ -470,11 +412,12 @@
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="portfolio-box shadow">
+          
           <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
           <div class="portfolio-info">
             <div class="caption">
-              <h4>project name goes here 1</h4>
-              <p>category project</p>
+              <h4>Professional Gym Website</h4>
+              <p><a style="color: aliceblue;" href="https://luckyjaiswal.github.io/gymwebsite.github.io/">Click to Open Project</a></p>
             </div>
           </div>
         </div>
@@ -484,8 +427,8 @@
           <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
           <div class="portfolio-info">
             <div class="caption">
-              <h4>project name goes here 2</h4>
-              <p>category project</p>
+              <h4>Resume Builder Application</h4>
+              <p><a style="color: aliceblue;" href="https://quickresumebuilders.com">Click to Open Project</a></p>
             </div>
           </div>
         </div>
@@ -495,8 +438,8 @@
           <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
           <div class="portfolio-info">
             <div class="caption">
-              <h4>project name goes here 3</h4>
-              <p>category project</p>
+              <h4>Movie Entertainment App(Backend)</h4>
+              <p><a style="color: aliceblue;" href="https://entertainment-app-1-g8k04wvni-lucky-jaiswals-projects-5d3a26c3.vercel.app/" >Click to Open Project</a></p>
             </div>
           </div>
         </div>
@@ -506,8 +449,8 @@
           <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
           <div class="portfolio-info">
             <div class="caption">
-              <h4>project name goes here 4</h4>
-              <p>category project</p>
+              <h4>Get Youtube Subscriber</h4>
+              <p><a style="color: aliceblue;" href="https://yt-9x98tezg2-lucky-jaiswals-projects-5d3a26c3.vercel.app/" >Click to Open Project</a></p>
             </div>
           </div>
         </div>
@@ -580,7 +523,7 @@
       <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
       <div class="heading-line"></div>
       <p class="lh-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+        
       </p>
     </div>
 
@@ -590,8 +533,8 @@
         <div class="cta-info w-100">
           <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
-          </p>
+            We are providing all type of Business web sloutions
+           </p>
           <h3 class="display-3--brief">What will be the next step?</h3>
           <ul class="cta-info__list">
             <li>We'll prepare the proposal.</li>
@@ -600,24 +543,28 @@
           </ul>
         </div>
       </div>
+
+    
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
-          <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <h4 class="display-3--title mb-5">start Making your project</h4>
+       
+          <form action="https://api.web3forms.com/submit" method="POST" class="row">
+            <input type="hidden" name="access_key" value="71bfc0da-ca99-4b70-a383-ec259a3e5f06">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
-            </div>
+              <input type="text" name="nmae" placeholder="Enter Your Name" id="inputFirstName" class="shadow form-control form-control-lg" required>
+             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="number" name="phone"  placeholder="Enter Mobile Number" id="inputLastName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" name="email" placeholder="Enter Email" id="inputEmail" class="shadow form-control form-control-lg"required> 
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
-            </div>
+              <textarea name="message" placeholder="Mention Your Queries here" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
@@ -646,8 +593,8 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">+1 728365413</a>
-          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+          <a href="https://wa.me/9752976857" class="contact-box__info--title">+91 9752976857</a>
+          <p class="contact-box__info--subtitle">  Mon-Sat 9am-10pm</p>
         </div>
       </div>  
       <!-- CONTENT FOR EMAIL  -->
@@ -662,7 +609,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@company.com</a>
+          <a href="mailto: jaiswallucky264@gmail.com" class="contact-box__info--title">jaiswallucky264@gmail.com</a>
           <p class="contact-box__info--subtitle">Online support</p>
         </div>
       </div>
@@ -679,8 +626,8 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">New York, USA</a>
-          <p class="contact-box__info--subtitle">NY 10012, US</p>
+          <a href="#" class="contact-box__info--title">Madhya Pradesh, India</a>
+          <p class="contact-box__info--subtitle">Indore</p>
         </div>
       </div>
     </div>
@@ -695,70 +642,19 @@
         </div>
         <div class="col-lg-7 col-md-6">
           <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="https://github.com/Luckyjaiswal"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com/luckyjaiswal3105?igshid=YTQwZjQ0NmI0OA=="><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
   </div>
 
   <!-- START THE CONTENT FOR THE CAMPANY INFO -->
-  <div class="container mt-5">
-    <div class="row text-white justify-content-center mt-3 pb-3">
-      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-        <h5 class="text-capitalize fw-bold">Campany name</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
-        </p>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">Products</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">useful links</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">contact</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+ 
 
   <!-- START THE COPYRIGHT INFO  -->
-  <div class="footer-bottom pt-5 pb-5">
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col-12">
-          <div class="footer-bottom__copyright">
-            &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com" target="_blank">Muriungi</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 </footer>
 
 <!-- BACK TO TOP BUTTON  -->
@@ -774,7 +670,7 @@
     <script type="text/javascript">
       const lightbox = GLightbox({
         'touchNavigation': true,
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'href': '#',
         'type': 'video',
         'source': 'youtube', //vimeo, youtube or local
         'width': 900,
@@ -783,5 +679,7 @@
     
     </script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="main.js"></script>
 </body>
 </html>
